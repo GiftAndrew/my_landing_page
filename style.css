@@ -1,0 +1,108 @@
+*{
+    font-family: Verdana;
+}
+.body{
+    width: auto 100%;
+}
+.header1 {
+    display: flex;
+    justify-content: space-around;
+    /*margin: auto 5%, 10%;*/
+    background-color:gold;
+    padding: 1%;
+}
+.header1 h2 {
+    margin-left: 3%;
+}
+.header1 h5 {
+    font-size: 14px;
+}
+.profile img {
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    padding-top: 5%;
+    margin:auto 25%;
+}
+.profile h1{
+    font-size: 40px;
+    color: chocolate;
+    text-align: center;
+}
+.profile p {
+    text-align: center;
+    color: #212121;
+    font-weight: 600;
+}
+.profile-location {
+    text-align: center;
+    color:#212121;
+    font-weight: 600;
+}
+.profile-location img {
+    width: 1.5%;
+}
+.interests {
+    background-color: goldenrod;
+    color: beige;
+    padding: 5%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.info1 {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.info2{
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom:2% ;
+    
+}
+.info1 p {
+    margin-top: 10%;
+}
+.info1 h2 {
+    font-size: 30px;
+}
+.services-text {
+    color: gold;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.services-types div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.footer {
+    background-color: goldenrod;
+    color: beige;
+    /*text-align: center;*/
+
+}
+.footer h4, h2 {
+    text-align: center;
+}
+.footer-logo img {
+    width: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-left: 50%;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.footer p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+}
